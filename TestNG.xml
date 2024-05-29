@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Cira Management">
+	<listeners>
+		<listener class-name="ciraconnect.testlisteners.TestListener" />
+	</listeners>
+	<test thread-count="1" name="Login Test Cases" enabled="false">
+		<classes>
+			<class name="ciraconnect.testcases.LoginPageTest">
+			</class>
+		</classes>
+	</test>
+	<test thread-count="1" name="HomePageTest" enabled="true">
+		<classes>
+			<class name="ciraconnect.testcases.HomePageTest">
+			</class>
+		</classes>
+	</test>
+
+
+	<test thread-count="1" name="InternalTasksPageTest"
+		enabled="false">
+		<classes>
+			<class name="ciraconnect.testcases.InternalTasksPageTest">
+				<!-- <methods> <include name="verifyInternalTasksPageURL"></include> 
+					<include name="verifyColumnChooserOption"></include> <include name="verifyToolbarFullScreenOption"></include> 
+					<include name="verifySwitchOpenClosedTasks"></include> <include name="verifyRefreshButton"></include> 
+					<include name="verifyActiveFilterSelect"></include> <include name="verifyAddInternalTasks"></include> 
+					<include name="verifyHelpInternalTask"></include> </methods> -->
+			</class>
+		</classes>
+	</test>
+
+	<test thread-count="1" name="ProjectsTasksPageTest"
+		enabled="false">
+		<classes>
+			<class name="ciraconnect.testcases.ProjectsTasksPageTest">
+				<methods>
+					<include name="verifyProjectsTasksPageURL"></include>
+
+					<!-- <include name="verifyAddProjectsTasks"></include> -->
+
+
+					<include name="VerifyProjectsTaskshelpIcon"></include>
+
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test thread-count="1" name="PreferencePageTest" enabled="false">
+		<classes>
+			<class name="ciraconnect.testcases.PreferencesPageTest"></class>
+		</classes>
+	</test>
+
+	<test thread-count="1" name="WorkOrdersPageTest" enabled="false">
+
+		<classes>
+			<class name="ciraconnect.testcases.WorkOrdersPageTest">
+			</class>
+		</classes>
+	</test>
+
+	<test thread-count="1" name="PropertyConveyanceWorkQueuePageTest" enabled="false">
+		<classes>
+			<class
+				name="ciraconnect.testcases.PropertyConveyanceWorkQueuePageTest"></class>
+		</classes>
+	</test>
+
+	<test thread-count="1" name="BillingItemManagementPageTest"
+		enabled="false">
+		<classes>
+			<class
+				name="ciraconnect.testcases.BillingItemManagementPageTest"></class>
+		</classes>
+	</test>
+
+	<test thread-count="1" name="ClosingRequestsPageTest" enabled="false">
+		<classes>
+			<class name="ciraconnect.testcases.ClosingRequestsPageTest"></class>
+		</classes>
+	</test>
+	
+	<test thread-count="1" name="CommunityBlocksPageTest" enabled="false">
+		<classes>
+			<class name="ciraconnect.testcases.CommunityBlocksPageTest"></class>
+		</classes>
+	</test>
+
+	<test thread-count="1" name="CommonLotsAppraisalPageTest" enabled="false">
+		<classes>
+			<class name="ciraconnect.testcases.CommonLotsAppraisalPageTest"></class>
+		</classes>
+	</test>
+	
+	<test thread-count="1" name="BoardApprovalsPageTest" enabled="false">
+		<classes>
+			<class name="ciraconnect.testcases.BoardApprovalsPageTest"></class>
+		</classes>
+	</test>
+	
+	<test thread-count="1" name="FulfillmentQueuePageTest" enabled="false">
+		<classes>
+			<class name="ciraconnect.testcases.FulfillmentQueuePageTest"></class>
+		</classes>
+	</test>
+
+	<test thread-count="1" name="FulfillmentQueuePageTest" enabled="false">
+		<classes>
+			<class name="ciraconnect.testcases.FulfillmentQueuePageTest"></class>
+		</classes>
+	</test>	
+	
+	
+	<test thread-count="1" name="NewARPaymentPageTest" enabled="false">
+		<classes>
+		<class name="ciraconnect.testcases.NewARPaymentTest"></class>
+		</classes>
+	</test>
+
+	<test thread-count="1" name="NewARPaymentPageTest" enabled="false">
+		<classes>
+		<class name="ciraconnect.testcases.ResidentContactLogsPageTest"></class>
+		</classes>
+	</test>
+	
+	<test thread-count="1" name="TimeandExpensePageTest" enabled="false">
+		<classes>
+		<class name="ciraconnect.testcases.TimeandExpensePageTest"></class>
+		</classes>
+	</test>
+	
+	<test thread-count="1" name="UploadBudgetsPageTest" enabled="false">
+		<classes>
+		<class name="ciraconnect.testcases.UploadBudgetsPageTest"></class>
+		</classes>
+	</test>
+	
+	<test thread-count="1" name="StatementApprovalQueuePageTest" enabled="false">
+		<classes>
+		<class name="ciraconnect.testcases.StatementApprovalQueuePageTest"></class>
+		</classes>
+	</test>
+	
+	<test thread-count="1" name="ViolationReviewPageTest" enabled="true">
+		<classes>
+		<class name="ciraconnect.testcases.ViolationReviewPageTest"></class>
+		</classes>
+	</test>
+	
+	<test thread-count="1" name="AP Expense Detail" enabled="false">
+		<classes>
+		<class name="ciraconnect.testcases.APExpenseDetailPageTest"></class>
+		</classes>
+	</test>
+	
+	
+	
+	
+</suite> 

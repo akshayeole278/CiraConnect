@@ -1,0 +1,29 @@
+2024-05-29T15:26:24,548  INFO [main] LoggerManager:17 - ------- Selected environment ------- qa
+2024-05-29T15:26:24,553  INFO [main] LoggerManager:17 - ------- Selected environment ------- qa
+2024-05-29T15:26:24,554  INFO [main] LoggerManager:17 - ------- Selected environment ------- qa
+2024-05-29T15:26:24,555  INFO [main] LoggerManager:17 - ------- Selected environment ------- qa
+2024-05-29T15:26:24,556  INFO [main] LoggerManager:17 - ------- Selected environment ------- qa
+2024-05-29T15:26:24,556  INFO [main] LoggerManager:17 - ------- Selected environment ------- qa
+2024-05-29T15:26:24,557  INFO [main] LoggerManager:17 - ------- Selected environment ------- qa
+2024-05-29T15:26:24,689  INFO [main] LoggerManager:17 - ------- Selected environment ------- qa
+2024-05-29T15:26:24,690  INFO [main] LoggerManager:17 - ------- Selected environment ------- qa
+2024-05-29T15:26:24,819  INFO [main] LoggerManager:17 - ------- Selected environment ------- qa
+2024-05-29T15:26:24,834  INFO [main] LoggerManager:17 - ------- Selected environment ------- qa
+2024-05-29T15:26:24,835  INFO [main] LoggerManager:17 - ------- Selected environment ------- qa
+2024-05-29T15:26:55,690  INFO [main] LoggerManager:17 - Verifying HomePage
+2024-05-29T15:26:55,691  INFO [main] LoggerManager:17 - ======== into verifyHomePage() ========
+2024-05-29T15:27:02,849  INFO [main] LoggerManager:17 - ======== Username: akshay.yeole========
+2024-05-29T15:27:03,155  INFO [main] LoggerManager:17 - ======== Password: PurpleMonitor#1========
+2024-05-29T15:27:11,411  INFO [main] LoggerManager:17 - Verifying Violation Review Page Title
+2024-05-29T15:27:11,412  INFO [main] LoggerManager:17 - ======== into verifyViolationReviewPage() ========
+2024-05-29T15:27:12,278  INFO [main] LoggerManager:17 - ======== Username: akshay.yeole========
+2024-05-29T15:27:13,122  INFO [main] LoggerManager:17 - ======== Password: PurpleMonitor#1========
+2024-05-29T15:27:14,293 ERROR [main] LoggerManager:25 - +++++++++ Exception in verifyViolationReviewPage()+++++++++ element click intercepted: Element <div class="dx-button-content">...</div> is not clickable at point (613, 330). Other element would receive the click: <div class="dx-overlay-content dx-resizable dx-loadpanel-content" style="width: 222px; height: 90px; left: 0px; top: 0px; transform: translate(572px, 250px); transition: all 0s ease 0s; z-index: 1503;">...</div>
+  (Session info: chrome=125.0.6422.113)
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.19'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b00cc0e7502e6b7cdc3a04f745c5ef7f, clickElement {id=f.4781579786F8450CFA469381118BEDB6.d.612DFC1DC64D2958E2C20064969C5CAA.e.191}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 125.0.6422.113, chrome: {chromedriverVersion: 125.0.6422.78 (14db42ec38ad..., userDataDir: C:\Users\admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53787}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53787/devtoo..., se:cdpVersion: 125.0.6422.113, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (b00cc0e7502e6b7cdc3a04f745c5ef7f)] -> xpath: //dx-button[@aria-label='Log in']//div[@class='dx-button-content']]
+Session ID: b00cc0e7502e6b7cdc3a04f745c5ef7f
